@@ -48,9 +48,34 @@ function cupsOfCoffee(howManyCups) {
 
 
 function occurrencesOfSubstring(fullString, substring) {
-    let pattern  = "/"+substring+"/g";
-    let count = (fullString.match(/ll/g) || []).length;
-    return count;
+    if (typeof fullString !== 'string' && typeof substring !== 'string'){
+        throw "Error in occurrencesOfSubstring Function: BAD argument";
+    }
+    else {
+        let count = 0;
+        let pos = fullString.indexOf(substring);
+        while (pos > -1) {
+            ++count;
+            pos = fullString.indexOf(substring, ++pos);
+        }
+        return count;
+    }
+}
+
+function randomizeSentences(paragraph) {
+    if (typeof paragraph !== 'string'){
+        throw "Error in randomizeSentences Function: BAD argument";
+    }
+    else {
+        let sentences = paragraph.match(/[^\.!\?]+[\.!\?]+/g);
+        for (let i = sentences.length - 1; i > 0; i -= 1) {
+            let j = Math.floor(Math.random() * (i + 1));
+            let temp = sentences[i];
+            sentences[i] = sentences[j];
+            sentences[j] = temp;
+        }
+        return sentences.join();
+    }
 }
 
 try {
@@ -65,7 +90,13 @@ try {
     console.log(cupsOfCoffee(10));
     //console.log(cupsOfCoffee("Harsh"));
 
-    console.log(occurrencesOfSubstring("Helllllllo, class!", "l"));
+    console.log(occurrencesOfSubstring("Helllllllo, class!", "ll"));
+    //console.log(occurrencesOfSubstring(123433335, 1));
+
+    var paragraph = "Hello, world! I am a paragraph. You can tell that I am a paragraph because there are multiple sentences that are split up by punctuation marks. Grammar can be funny, so I will only put in paragraphs with periods, exclamation marks, and question marks -- no quotations.";
+
+    console.log(randomizeSentences(paragraph));
+
 }
 catch (e){
     console.log(e);
