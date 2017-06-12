@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b2bfee8-1f27-4157-96fa-328712bcaf95" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LABs/Lab - 2/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LABs/Lab - 2/printShape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CS 546 - Web Programming.iml" afterPath="$PROJECT_DIR$/.idea/CS 546 - Web Programming.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LABs/Lab - 2.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,7 +39,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/LABs/Lab - 2/printShape.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="283">
-              <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+              <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -113,7 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,6 +127,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Lectures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS 546 - Web Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS 546 - Web Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LABs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -168,13 +182,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="setting&#9;ACTION&#9;ShowSettings&#10;incre&#9;ACTION&#9;EditorIncreaseFontSize&#10;font&#9;ACTION&#9;EditorIncreaseFontSize&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins&#10;app&#9;null&#9;null&#10;fon&#9;ACTION&#9;EditorIncreaseFontSize&#10;font si&#9;ACTION&#9;EditorIncreaseFontSize&#10;sett&#9;ACTION&#9;ShowSettings&#10;setti&#9;null&#9;null" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,6 +299,7 @@
       <workItem from="1496340091414" duration="1169000" />
       <workItem from="1496363784066" duration="2092000" />
       <workItem from="1496412256418" duration="598000" />
+      <workItem from="1497203952772" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1 Completed">
       <created>1495933717983</created>
@@ -297,7 +312,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25184000" />
+    <option name="totallyTimeSpent" value="25855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,14 +737,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LABs/Lab - 2/printShape.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
-          <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
           <folding />
         </state>
       </provider>
