@@ -1,0 +1,16 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "This is Lab 4 - Intro to MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Harsh Jagdishbhai Kevadia",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^2.2.28",
+    "uuid": "^3.0.1"
+  }
+}

@@ -59,7 +59,7 @@ textMetrics.createMetrics = (text) => {
     map.forEach((value, key) => {
         wordOccurrences[key] = value;
         if(key.length > 5){
-            longWordCounter++;
+            longWordCounter += wordOccurrences[key];
         }
     });
     returnObject.longWords = longWordCounter;
