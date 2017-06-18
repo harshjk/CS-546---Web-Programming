@@ -22,8 +22,18 @@ let connectDb = () => {
                 return db;
             });
     }
-
     return _connection;
 };
+
+/*let closeDb = () => {
+    if(_connection){
+        _connection.close();
+    }
+};*/
+
+/*module.exports = {
+    connectDb: connectDb,
+    closeDb: closeDb
+};*/
 
 module.exports = connectDb;

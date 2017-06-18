@@ -75,7 +75,7 @@ textMetrics.createMetrics = (text) => {
 
 /*
 //Testing
-console.log("Hello, my friends! This is a great day to say hello.\n\n\tHello! 2 3 4 23");
+console.log("Hello, my friends! This is a great dazy to say hello.\n\n\tHello! 2 3 4 23");
 console.log("\n\n\n\n");
 console.log(textMetrics.simplify("Hello, my friends! This is a great day to say hello.\n\n\tHello! 2 3 4 23"));
 console.log(textMetrics.createMetrics("Hello, my friends! This is a great day to say hello.\n\n\tHello! 2 3 4 23"));
