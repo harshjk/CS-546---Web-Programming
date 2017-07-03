@@ -1,0 +1,15 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "This is Lab 6 by Harsh J Kevadia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Harsh Jagdishbhai Kevadia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
