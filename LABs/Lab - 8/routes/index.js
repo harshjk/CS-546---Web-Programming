@@ -9,7 +9,7 @@ const constructorMethod = (app) => {
     app.use("/", palindromeRoutes);
 
     app.use("*", (req, res) => {
-        res.redirect("/static");
+        res.redirect("/");
     })
 };
 

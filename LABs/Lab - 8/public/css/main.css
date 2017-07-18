@@ -61,3 +61,31 @@ p {
   width: 75%;
   border-bottom: 1px dashed #333;
 }
+
+.not-palindrome {
+  color: red;
+}
+
+.is-palindrome {
+  color: blue;
+}
+
+header {
+  margin: 0 0 12px;
+  text-align: center;
+  color: #b48608;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Droid serif', serif;
+  font-size: 36px;
+  line-height: 44px;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}

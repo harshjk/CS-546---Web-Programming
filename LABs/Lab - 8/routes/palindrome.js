@@ -8,7 +8,7 @@ const router = express.Router();
 const data = require("../data");
 const palindrome = data.palindrome;
 
-router.get("/static", (req, res) => {
+router.get("/", (req, res) => {
   res.render("palindrome/static", {});
 });
 

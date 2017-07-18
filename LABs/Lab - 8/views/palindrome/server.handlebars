@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-sm-12">
+        <form class="server-form" method="post">
+            <div class="form-group">
+                <div class="col-sm-4">
+                    <label for="palindromeText">Enter Text: </label>
+                </div>
+                <div class="col-sm-8">
+                    <textarea type="textarea" class="form-control" id="palindromeText" name="palindromeText" placeholder="Enter String Here"
+                        value="{{firstNumber}}"></textarea>
+                </div>
+            </div>
+            {{#if error }}
+            <div class="form-group">
+                <div class="alert alert-danger">
+                    {{ error }}
+                </div>
+            </div>
+            {{/if}}
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+            {{#if result }}
+            <div class="form-group">
+                <div class="alert alert-success">
+                    The result is: {{ result }}
+                </div>
+            </div>
+            {{/if}}
+        </form>
+    </div>
+</div>
